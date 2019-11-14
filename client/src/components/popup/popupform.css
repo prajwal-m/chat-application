@@ -1,0 +1,81 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.popup-inner {
+  position: relative;
+  min-width: 300px;
+  width: 350px;
+  background: #282c34;
+  margin: 0 auto;
+  margin-top: 250px;
+  padding: 30px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+}
+
+.close-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0;
+}
+
+.input-fields {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  outline: none;
+}
+
+.form-header {
+  color: teal;
+  text-shadow: 2px 2px 2px black;
+}
+
+textarea {
+  margin-bottom: 20px;
+  background: transparent;
+  color: teal;
+}
+
+.inner-popup {
+  position: relative;
+  min-width: 300px;
+  width: 350px;
+  background: white;
+  margin: 0 auto;
+  margin-top: 250px;
+  padding: 30px 10px 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+}
+
+.submit-group {
+  width: 100px;
+  height: 35px;
+  background-color: teal;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}

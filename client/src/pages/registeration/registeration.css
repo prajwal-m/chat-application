@@ -1,0 +1,38 @@
+.registeration-page {
+    background: url("../../assets/msnger.png");
+    /* background-size: contain; */
+    background: cover;
+    background-color: black;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.submit-btn {
+    display: block;
+    margin-left: 50px;
+}
+
+
+/* .antd-btn {
+    width: 120px;
+    height: 45px;
+    display: block;
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 15px 15px;
+} */
+
+
+/* .antd-btn:hover {
+    background-color: white;
+    color: black;
+} */

@@ -1,0 +1,53 @@
+.name-list {
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 27px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: teal;
+  color: white;
+  margin: 5px auto;
+}
+
+.name-list:hover {
+  background-color: #282c34;
+  color: white;
+}
+
+.group-list {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 27px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px auto;
+}
+
+.group-list:hover {
+  color: black;
+}
+
+/* .name-list:active {
+  background-color: teal;
+  color: black;
+} */
+
+.active-link {
+  text-decoration: none;
+}
+
+.sidebar-btn {
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.add-icon {
+  padding: 5px;
+}

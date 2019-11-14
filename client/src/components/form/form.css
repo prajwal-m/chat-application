@@ -1,0 +1,27 @@
+.msg-form {
+  position: fixed;
+  bottom: 0px;
+  width: 90%;
+  background-color: #282c34;
+  color: white;
+  height: 3vh;
+  padding-bottom: 50px;
+  border: 1px solid white;
+}
+
+.send-btn {
+  width: 120px;
+  height: 35px;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+  margin: 20px 10px;
+  border-radius: 15px 15px;
+}
+
+.send-btn:hover {
+  background-color: white;
+  color: black;
+}

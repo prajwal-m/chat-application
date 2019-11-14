@@ -1,0 +1,72 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    font-size: 200px;
+    color: white;
+    /* margin: 20px 20px; */
+    display: block;
+}
+
+.App-header {
+    background: url("../../assets/msnger.png");
+    /* background-size: contain; */
+    background: cover;
+    background-color: black;
+    /* background-blend-mode: screen; */
+    /* opacity: 1; */
+    /* background-color: #c0c5ce; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.header-logo {
+    color: white;
+}
+
+.login-btn {
+    width: 200px;
+    background-color: #282c34;
+    height: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px 15px;
+    /* margin-top: 30px; */
+}
+
+.login-btn:hover {
+    color: #282c34;
+    background-color: white;
+}
+
+.google-icon {
+    font-size: 23px;
+    padding: 10px;
+}
+
+.landing-container {
+    width: 500px;
+    height: 500px;
+    /* background-color: rgba(13, 213, 228, 0.514); */
+    opacity: 0.7;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .custom-btn {
+    background-color: #282c34;
+    border-radius: 15px 15px;
+} */

@@ -1,0 +1,12 @@
+.chat-item {
+  text-align: left;
+  margin-left: 20px;
+}
+
+strong {
+  color: #09d3ac;
+}
+
+.message-data {
+  color: white;
+}

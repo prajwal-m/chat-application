@@ -1,0 +1,15 @@
+.chat-room {
+  width: 100%;
+  background-color: #282c34;
+  height: 100vh;
+  border: 1px solid white;
+}
+
+.list-message {
+  width: 100%;
+}
+
+.group-header {
+  color: white;
+  background-color: teal;
+}
